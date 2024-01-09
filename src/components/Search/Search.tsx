@@ -14,7 +14,7 @@ function Search() {
       />
       <Button
         variant="secondary"
-        id="button-addon2"
+        id="btn-search"
       >
         <FaSearch />
       </Button>
