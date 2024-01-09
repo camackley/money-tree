@@ -1,0 +1,11 @@
+.brand {
+  display: flex;
+  align-items: center;
+  font-size: 45px;
+
+  span {
+    font-size: 57px;
+    line-height: 64px;
+  }
+}
+
