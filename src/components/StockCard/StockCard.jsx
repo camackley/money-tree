@@ -1,8 +1,10 @@
 import "./StockCard.css";
 
-import { MdCompareArrows, MdOutlineFavoriteBorder } from "react-icons/md";
 import Button from "react-bootstrap/Button"; 
 import Card from "react-bootstrap/card";
+import { MdCompareArrows, MdOutlineFavoriteBorder } from "react-icons/md";
+
+import { Chart } from "../Chart/Chart";
 
 function StockCard() {
   return (
@@ -14,20 +16,20 @@ function StockCard() {
         </div>
         <div>
           <Button variant="light" id="btn-convert">
-            <MdCompareArrows />
+            <MdCompareArrows size={24} className="me-2"/>
             Convert
           </Button>
           <Button
             variant="primary"
             id="btn-save"
-            className="ms-2 rounded-circle"
+            className="ms-2 p-2"
           >
-            <MdOutlineFavoriteBorder />
+            <MdOutlineFavoriteBorder size={24} />
           </Button>
         </div>
       </div>
-      <div>
-        <img src="http://placehold.it/700x100" alt="Stock graphic" />
+      <div className="body">
+        <Chart/>
       </div>
     </Card>
   );
