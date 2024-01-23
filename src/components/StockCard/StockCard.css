@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px;
+  height: fit-content;
+
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .head--title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .body {
+    margin: 0;
+  }
+}

@@ -1,0 +1,13 @@
+.chart-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  .time-frames {
+    width: 10%;
+  }
+
+  .chart-container {
+    height: 20vh !important;
+  }
+}
